@@ -1,0 +1,11 @@
+[Unit]
+Description=Yocto Hello World Cmake Example
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/hello_cmake
+User=root
+Group=root
+
+[Install]
+WantedBy=basic.target
